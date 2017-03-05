@@ -1,27 +1,28 @@
 {
-  "name": "skill-sample-nodejs-hello-world",
+  "name": "sudochef",
   "version": "1.0.0",
-  "description": "Hello world sample skill",
+  "description": "Echo powered cooking smart assistant",
   "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexa/skill-sample-nodejs-hello-world.git"
+    "url": "git+https://github.com/kaiyisg/sudochef.git"
   },
   "keywords": [
-    "helloworld",
-    "alexa",
-    "skill"
+    "Echo",
+    "sudochef",
+    "cooking"
   ],
-  "author": "Amazon.com",
-  "license": "Apache-2.0",
+  "author": "Kai Yi Lee",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexa/skill-sample-nodejs-hello-world/issues"
+    "url": "https://github.com/kaiyisg/sudochef/issues"
   },
-  "homepage": "https://github.com/alexa/skill-sample-nodejs-hello-world#readme",
-  "dependencies": {
-    "alexa-sdk": "^1.0.7"
-  }
+  "homepage": "https://github.com/kaiyisg/sudochef#readme"
 }
