@@ -1,0 +1,6 @@
+“Echo, ask Sudo Chef for | the horoscope for Gemini”
+“Echo, ask Sudo Chef about | Gemini”
+“Echo, ask Sudo Chef | what is the horoscope for Gemini”
+“Echo, ask Sudo Chef | what’s the horoscope for Gemini”
+“Echo, ask Sudo Chef to | give me the horoscope for Gemini”
+“Echo, ask Sudo Chef to | tell me the horoscope for Gemini”
