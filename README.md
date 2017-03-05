@@ -1,1 +1,5 @@
-# sudochef
+# SudoChef
+SudoChef is an Amazon Alexa powered superuser speech bot that converses with you while you busy yourself cooking, over the stove or oven. On the backend, our algorithm interleaves various cooking instructions optimally such that total time spent on making your dishes will be minimized. For example, if two dishes makes use of the same ingredient, we will prepare them on the same time rather than on two separate occasions; make use of the time while boiling or baking your cooking ingredients to prepare other dishes. 
+
+## What's Next
+We foresee that data on what dishes are popular among users could be useful to grocery stores and supermarkets in predicting demand more accurately and making corresponding changes to pricing strategies. In the future, we hope that the user data could be visualized as a dashboard for grocery stores and supermarkets, through the use of Power BI Dashboards. By identifying hotspots where certain ingredients are most popular among consumers in preparing their meals, stores can forecast demand better. These datasets and data visualization could be sold commercially to help store better cater to the taste and preferences of shoppers, according to the recipes that they most frequently prepare.
