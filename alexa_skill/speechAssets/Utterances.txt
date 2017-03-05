@@ -19,7 +19,7 @@ RepeatPreviousStepIntent reiterate what you just said
 RepeatPreviousStepIntent what is the current step
 RepeatPreviousStepIntent what's is the current step
 RepeatPreviousStepIntent what the current step is
-GetRecipeIntent today's dinner
+GetRecipeIntent today's lunch
 GetRecipeIntent today's meal
 GetRecipeIntent today's recipes
 GetRecipeIntent dinner
@@ -49,3 +49,21 @@ StartRecipeIntent start today's lunch instructions
 StartRecipeIntent give me today's lunch instructions
 StartRecipeIntent get me today's lunch instructions
 StartRecipeIntent tell me today's lunch instructions
+StartRecipeIntent start
+EndRecipeIntent stop today's dinner instructions
+EndRecipeIntent end today's dinner instructions
+EndRecipeIntent finish today's dinner instructions
+EndRecipeIntent stop today's meal instructions
+EndRecipeIntent end today's meal instructions
+EndRecipeIntent finish today's meal instructions
+EndRecipeIntent stop today's recipes
+EndRecipeIntent end today's recipes
+EndRecipeIntent finish today's recipes
+EndRecipeIntent stop today's lunch instructions
+EndRecipeIntent end today's lunch instructions
+EndRecipeIntent finish today's lunch instructions
+EndRecipeIntent stop
+EndRecipeIntent end
+EndRecipeIntent finish
+YesIntent yes
+NoIntent No
