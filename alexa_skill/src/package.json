@@ -4,7 +4,10 @@
   "description": "Echo powered cooking smart assistant",
   "main": "index.js",
   "dependencies": {
-    "alexa-sdk": "^1.0.7"
+    "alexa-sdk": "^1.0.7",
+    "alexa-app": "^3.1.0",
+    "dynasty": "^0.2.4",
+    "lodash": "^4.3.0"
   },
   "devDependencies": {},
   "scripts": {
