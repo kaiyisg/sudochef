@@ -9,18 +9,15 @@ exports.handler = function(event, context, callback) {
 
 var handlers = {
     'LaunchRequest': function () {
-        this.emit(':tell', 'Launching!');
+        this.emit(':tell', 'Sudochef has started!');
     },
-    'HelloWorldIntent': function () {
-        this.emit('SayHello')
+    'StartRecipeIntent': function () {
+        this.emit(':tell', 'Start recipe!');
     },
-    'ByeWorldIntent': function () {
-        this.emit('SayBye')
+    'StartNextStepIntent': function () {
+        this.emit(':tell', 'Start next step!');
     },
-    'SayHello': function () {
-        this.emit(':tell', 'Hello World!');
-    },
-    'SayBye': function () {
-        this.emit(':tell', 'Bye World!');
+    'RepeatPreviousStepIntent': function () {
+        this.emit(':tell', 'Repeat previous step!');
     }
 };

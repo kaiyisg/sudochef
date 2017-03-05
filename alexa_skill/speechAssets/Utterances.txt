@@ -1,6 +1,25 @@
-HelloWorldIntent hello
-HelloWorldIntent say hello
-HelloWorldIntent say hello world
-ByeWorldIntent bye
-ByeWorldIntent say bye
-ByeWorldIntent say bye world
+“Echo, ask Sudo Chef for | the horoscope for Gemini”
+“Echo, ask Sudo Chef about | Gemini”
+“Echo, ask Sudo Chef | what is the horoscope for Gemini”
+“Echo, ask Sudo Chef | what’s the horoscope for Gemini”
+“Echo, ask Sudo Chef to | give me the horoscope for Gemini”
+“Echo, ask Sudo Chef to | tell me the horoscope for Gemini”
+
+StartRecipeIntent today's dinner
+StartRecipeIntent today's meal
+StartRecipeIntent today's recipes
+StartNextStepIntent done
+StartNextStepIntent what's next
+StartNextStepIntent i'm done
+StartNextStepIntent could you tell me what to do next
+StartNextStepIntent go to next instruction
+StartNextStepIntent describe what to do next
+StartNextStepIntent next please
+StartNextStepIntent next
+StartNextStepIntent could you go to the next instruction
+RepeatPreviousStepIntent could you repeat the last instruction
+RepeatPreviousStepIntent could you repeat
+RepeatPreviousStepIntent please repeat
+RepeatPreviousStepIntent huh
+RepeatPreviousStepIntent repeat last instructions please
+RepeatPreviousStepIntent repeat last instructions
