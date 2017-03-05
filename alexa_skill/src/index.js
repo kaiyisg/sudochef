@@ -7,10 +7,18 @@ exports.handler = function(event, context, callback) {
     alexa.execute();
 };
 
+const states = {
+    IDLEMODE: '_IDLEMODE', 
+    STARTMODE: '_STARTMODE',
+};
+
 var handlers = {
     'LaunchRequest': function () {
         this.emit(':tell', 'Sudochef has started!');
     },
+    'GetRecipeIntent': function () {
+        this.emit(':tell', 'Get recipe!');
+    }
     'StartRecipeIntent': function () {
         this.emit(':tell', 'Start recipe!');
     },

@@ -1,0 +1,14 @@
+{% block content%}
+<body style="background-color: #004990">
+<div class="center-block">
+<h1> Recipes </h1>
+	<table class="table">
+	{% for label in json %}
+		<tr>			
+			<td>{{label}}</td>
+		</tr>
+	{% endfor %}
+	</table>
+</div>
+</body>
+{% endblock %}

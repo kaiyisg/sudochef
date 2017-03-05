@@ -5,9 +5,27 @@
 “Echo, ask Sudo Chef to | give me the horoscope for Gemini”
 “Echo, ask Sudo Chef to | tell me the horoscope for Gemini”
 
-StartRecipeIntent today's dinner
-StartRecipeIntent today's meal
-StartRecipeIntent today's recipes
+GetRecipeIntent today's dinner
+GetRecipeIntent today's meal
+GetRecipeIntent today's recipes
+GetRecipeIntent dinner
+GetRecipeIntent lunch
+GetRecipeIntent what's today's dinner
+GetRecipeIntent what is today's dinner
+GetRecipeIntent what's today's meal
+GetRecipeIntent what is today's meal
+GetRecipeIntent what's today's recipes
+GetRecipeIntent what is today's recipes
+GetRecipeIntent what is today's recipes
+GetRecipeIntent give me today's dinner
+GetRecipeIntent tell me today's dinner
+StartRecipeIntent start today's dinner instructions
+StartRecipeIntent give me today's dinner instructions
+StartRecipeIntent get me today's dinner instructions
+StartRecipeIntent get me me today's dinner instructions
+
+
+
 StartNextStepIntent done
 StartNextStepIntent what's next
 StartNextStepIntent i'm done
